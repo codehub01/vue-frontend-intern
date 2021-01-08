@@ -51,7 +51,12 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i class="fa fa-bars text-white"></i>
+          <div>
+            <div class="menu-bar-line"></div>
+            <div class="menu-bar-line"></div>
+            <div class="menu-bar-line"></div>
+          </div>
+            <!-- <i class="fa fa-bars text-white"></i> -->
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
@@ -117,7 +122,6 @@ export default {
   position: absolute;
   width: 40px;
   height: 40px;
-
 }
 
 .sk-cube-grid .sk-cube {
@@ -176,7 +180,11 @@ export default {
   } 
 }
 
-
+.menu-bar-line{
+  border: 1px solid white;
+  margin-bottom: 5px;
+  width: 20px;
+}
 
 * {
   margin: 0;
